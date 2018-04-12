@@ -15,8 +15,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin: 0 auto;
 	width: 420px;
 	height: 420px;
-	border: 10px solid red;
-	/*overflow: hidden;*/
+	border: 10px solid lightblue;
+	overflow: hidden;
 	clear: both;
 }
 
@@ -25,12 +25,19 @@ ul {
 	width: 2000px;
 	/*clear: both;*/
 }
-img {
-	position: center;
-}
+
 li {
 	list-style: none;
 	max-width: 400px;
 	float: left;
 }
-
+button {
+	padding: 10px 20px;
+	background-color: lightblue;
+	border: none;
+}
+.buttons {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
